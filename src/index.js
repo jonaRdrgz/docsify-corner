@@ -16,7 +16,10 @@ const cornerOptions = {
   // the corner background color, default false to use default color
   background: false,
   // the icon color, default false to use default color
-  color: false
+  color: false,
+
+  // the value to know if the icon is a SVG, default false to return images
+  isSvgIcon: false
 }
 
 function corner (hook, vm) {
